@@ -18,37 +18,37 @@ Extract the Pet Products Review dataset from an AWS S3 using PySpark in order to
 
 customer_table:
 
-![customer_colab]()
+![customer_colab](https://github.com/CorinneBean/Amazon_Vine_Analysis/blob/fb099672080def18c8e03578447ebf067a0a9c33/Images/Customer_ID.png)
 
 products_table:
 
-![product_colab]()
+![product_colab](https://github.com/CorinneBean/Amazon_Vine_Analysis/blob/fb099672080def18c8e03578447ebf067a0a9c33/Images/Product_table.png)
 
 review_id_table:
 
-![review_colab]()
+![review_colab](https://github.com/CorinneBean/Amazon_Vine_Analysis/blob/fb099672080def18c8e03578447ebf067a0a9c33/Images/review_id.png)
 
 vine_table:
 
-![vine_colab]()
+![vine_colab](https://github.com/CorinneBean/Amazon_Vine_Analysis/blob/fb099672080def18c8e03578447ebf067a0a9c33/Images/vine_table.png)
 
 Each dataframe was loaded to PostgreSQL and the RDS. Due to the size of each dataframe, it took some time to load. To verify the data loaded correctly, I ran a sql statement on each table.
 
 customer_table:
 
-![customer_sql]()
+![customer_sql](https://github.com/CorinneBean/Amazon_Vine_Analysis/blob/fb099672080def18c8e03578447ebf067a0a9c33/Images/custom_sql.png)
 
 products_table:
 
-![product_sql]()
+![product_sql](https://github.com/CorinneBean/Amazon_Vine_Analysis/blob/fb099672080def18c8e03578447ebf067a0a9c33/Images/products_sql.png)
 
 review_id_table:
 
-![review_sql]()
+![review_sql](https://github.com/CorinneBean/Amazon_Vine_Analysis/blob/fb099672080def18c8e03578447ebf067a0a9c33/Images/review_sql.png)
 
 vine_table:
 
-![vine_sql]()
+![vine_sql](https://github.com/CorinneBean/Amazon_Vine_Analysis/blob/fb099672080def18c8e03578447ebf067a0a9c33/Images/vine_sql.png)
 
 ### Deliverable 2: Determine Bias of Vine Reviews
 
@@ -58,11 +58,11 @@ After dropping the nulls the dataset was around 1.7 million reviews.
 
 Filtering for only reviews with 20 or more votes dropped the dataset down to 65K. 
 
-![twenty or more votes](https://user-images.githubusercontent.com/87085239/183271734-891c9347-4251-40aa-9425-43b1d55e91ea.png)
+![twenty or more votes](https://github.com/CorinneBean/Amazon_Vine_Analysis/blob/fb099672080def18c8e03578447ebf067a0a9c33/Images/20votes.png)
 
 Next the dataset was filtered for helpful votes at least 50% which brought the total dataset to 40,565.
 
-![50 helpful](https://user-images.githubusercontent.com/87085239/183271817-70e3ee77-78c7-46c0-b171-a929eb93adc1.png)
+![50 helpful](https://github.com/CorinneBean/Amazon_Vine_Analysis/blob/fb099672080def18c8e03578447ebf067a0a9c33/Images/50votes.png)
 
 
 
